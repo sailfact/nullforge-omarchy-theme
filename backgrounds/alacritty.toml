@@ -1,0 +1,68 @@
+# ============================================================
+#  alacritty.toml — Nullforge
+#  drop into ~/.config/omarchy/themes/nullforge/alacritty.toml
+# ============================================================
+
+[colors.primary]
+background        = "#0a1420"
+foreground        = "#f2ece6"
+dim_foreground    = "#7a9bb8"
+bright_foreground = "#f2ece6"
+
+[colors.cursor]
+text   = "#0a1420"
+cursor = "#c4622d"
+
+[colors.vi_mode_cursor]
+text   = "#0a1420"
+cursor = "#e8a882"
+
+[colors.search.matches]
+foreground = "#0a1420"
+background = "#c4622d"
+
+[colors.search.focused_match]
+foreground = "#f2ece6"
+background = "#8f4420"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#f2ece6"
+background = "#1a2a3a"
+
+[colors.selection]
+text       = "#f2ece6"
+background = "#3d5a75"
+
+[colors.normal]
+black   = "#0a1420"
+red     = "#d97264"
+green   = "#8fb27e"
+yellow  = "#c4622d"
+blue    = "#7a9bb8"
+magenta = "#e8a882"
+cyan    = "#dce6f0"
+white   = "#f2ece6"
+
+[colors.bright]
+black   = "#3d5a75"
+red     = "#d97264"
+green   = "#a4c294"
+yellow  = "#e8a882"
+blue    = "#7a9bb8"
+magenta = "#f7e8df"
+cyan    = "#dce6f0"
+white   = "#f2ece6"
+
+[colors.dim]
+black   = "#06101a"
+red     = "#a13c2a"
+green   = "#5a7c4a"
+yellow  = "#8f4420"
+blue    = "#3d5a75"
+magenta = "#c4622d"
+cyan    = "#7a9bb8"
+white   = "#c8bfb5"

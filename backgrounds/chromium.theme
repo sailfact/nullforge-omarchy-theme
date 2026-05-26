@@ -1,0 +1,26 @@
+/* ============================================================
+   chromium.theme — Nullforge
+   drop into ~/.config/omarchy/themes/nullforge/chromium.theme
+   (read by omarchy to push a chromium/electron theme)
+   ============================================================ */
+{
+  "name": "Nullforge",
+  "colors": {
+    "frame":              [10, 20, 32],
+    "frame_inactive":     [10, 20, 32],
+    "toolbar":            [26, 42, 58],
+    "toolbar_text":       [242, 236, 230],
+    "tab_text":           [242, 236, 230],
+    "tab_background_text":[122, 155, 184],
+    "bookmark_text":      [242, 236, 230],
+    "ntp_background":     [10, 20, 32],
+    "ntp_text":           [242, 236, 230],
+    "button_background":  [196, 98, 45]
+  },
+  "tints": {
+    "buttons": [-1, -1, 0.95]
+  },
+  "properties": {
+    "ntp_background_alignment": "bottom"
+  }
+}

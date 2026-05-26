@@ -1,0 +1,100 @@
+/* =============================================================
+   walker.css — Nullforge (app launcher)
+   drop into ~/.config/omarchy/themes/nullforge/walker.css
+   ============================================================= */
+
+#window,
+#box,
+#aiScroll,
+#aiList,
+#search,
+#password,
+#input,
+#typeahead,
+#list,
+child,
+scrollbar,
+slider,
+.item,
+.desc,
+.activation {
+  background: transparent;
+  border: 0;
+  color: #f2ece6;
+}
+
+#window {
+  background: rgba(10, 20, 32, 0.96);
+}
+
+#box {
+  border: 1px solid #1a2a3a;
+  background: #0a1420;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+#search {
+  border-bottom: 1px solid #1a2a3a;
+  padding: 6px 12px;
+}
+
+#prompt {
+  color: #c4622d;
+  font-weight: 700;
+  font-family: "JetBrains Mono";
+  margin-right: 6px;
+}
+
+#input,
+#password {
+  font-family: "JetBrains Mono";
+  font-size: 14px;
+  color: #f2ece6;
+  caret-color: #c4622d;
+}
+
+#typeahead {
+  color: #3d5a75;
+  font-family: "JetBrains Mono";
+}
+
+#list {
+  padding: 4px 0;
+}
+
+.item {
+  padding: 6px 12px;
+  font-family: "JetBrains Mono";
+  font-size: 13px;
+  color: #f2ece6;
+  border-radius: 0;
+}
+
+.item:selected,
+child:selected .item {
+  background: #c4622d;
+  color: #f2ece6;
+}
+
+.desc {
+  color: #7a9bb8;
+  font-size: 11px;
+}
+
+.item:selected .desc {
+  color: #f7e8df;
+}
+
+.activation {
+  color: #c4622d;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.item:selected .activation {
+  color: #0a1420;
+  background: #f2ece6;
+  padding: 0 4px;
+  border-radius: 1px;
+}

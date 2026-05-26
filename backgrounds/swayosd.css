@@ -1,0 +1,31 @@
+/* =============================================================
+   swayosd.css — Nullforge
+   drop into ~/.config/omarchy/themes/nullforge/swayosd.css
+   ============================================================= */
+
+window {
+  background: rgba(10, 20, 32, 0.92);
+  border: 1px solid #c4622d;
+  border-radius: 2px;
+  color: #f2ece6;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+}
+
+image, label {
+  color: #f2ece6;
+}
+
+progressbar {
+  min-height: 4px;
+}
+
+progressbar trough {
+  background: rgba(220, 230, 240, 0.12);
+  min-height: 4px;
+}
+
+progressbar progress {
+  background: #c4622d;
+  min-height: 4px;
+}
