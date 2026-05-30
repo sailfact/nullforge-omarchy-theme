@@ -4,36 +4,9 @@
    ============================================================= */
 
 
-@define-color background-color {{ background }};
-@define-color border-color {{ foreground }};
-@define-color label {{ foreground }};
-@define-color image {{ foreground }};
-@define-color progress {{ accent }};
+@define-color background-color #1a2a3a;
+@define-color border-color #7a9bb8
+@define-color label #c4622d;
+@define-color image #f2ece6;
+@define-color progress #c4622d;
 
-window:not(:backdrop),
-window {
-  background: rgba(10, 20, 32, 0.92);
-  border: 1px solid #c4622d;
-  border-radius: 2px;
-  color: #f2ece6;
-  font-family: "JetBrains Mono", monospace;
-  font-weight: 500;
-}
-
-image, label {
-  color: #f2ece6;
-}
-
-progressbar {
-  min-height: 4px;
-}
-
-progressbar trough {
-  background: rgba(220, 230, 240, 0.12);
-  min-height: 4px;
-}
-
-progressbar progress {
-  background: #c4622d;
-  min-height: 4px;
-}
