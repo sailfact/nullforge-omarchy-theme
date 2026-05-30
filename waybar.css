@@ -1,7 +1,14 @@
 /* =============================================================
    waybar.css — Nullforge
-   drop into ~/.config/omarchy/themes/nullforge/waybar.css
+   https://github.com/sailfact/nullforge-omarchy-theme
    ============================================================= */
+
+@define-color selected-text #c4622d;
+@define-color text #f2ece6;
+@define-color base #1a2a3a;
+@define-color border #f2ece6;
+@define-color foreground #f2ece6;
+@define-color background #1a2a3a;
 
 * {
   font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
@@ -15,7 +22,7 @@
 }
 
 window#waybar {
-  background: rgba(10, 20, 32, 0.96);
+  background: background;
   color: #f2ece6;
   border-bottom: 1px solid #1a2a3a;
 }

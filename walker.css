@@ -1,7 +1,14 @@
 /* =============================================================
    walker.css — Nullforge (app launcher)
-   drop into ~/.config/omarchy/themes/nullforge/walker.css
+   https://github.com/sailfact/nullforge-omarchy-theme
    ============================================================= */
+
+@define-color selected-text #c4622d;
+@define-color text #f2ece6;
+@define-color base #1a2a3a;
+@define-color border #f2ece6;
+@define-color foreground #f2ece6;
+@define-color background #1a2a3a;
 
 #window,
 #box,
@@ -18,7 +25,7 @@ slider,
 .item,
 .desc,
 .activation {
-  background: transparent;
+  background: solid transparent;
   border: 0;
   color: #f2ece6;
 }
