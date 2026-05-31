@@ -2,6 +2,8 @@
 #  alacritty.toml — Nullforge
 #  drop into ~/.config/omarchy/themes/nullforge/alacritty.toml
 # ============================================================
+[window]
+opacity = 0.85
 
 [colors.primary]
 background        = "#0a1420"
