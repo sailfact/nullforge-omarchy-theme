@@ -2,9 +2,6 @@
 #  alacritty.toml — Nullforge
 #  drop into ~/.config/omarchy/themes/nullforge/alacritty.toml
 # ============================================================
-[window]
-opacity = 0.85
-
 [colors.primary]
 background        = "#0a1420"
 foreground        = "#f2ece6"
@@ -13,7 +10,8 @@ bright_foreground = "#f2ece6"
 
 [colors.cursor]
 text   = "#0a1420"
-cursor = "#c4622d"
+cursor = "#e8a882"
+blink_interval = 500
 
 [colors.vi_mode_cursor]
 text   = "#0a1420"
