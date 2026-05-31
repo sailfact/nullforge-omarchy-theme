@@ -1,46 +1,7 @@
 # Nullforge — Omarchy Theme
 
 A complete [Omarchy](https://omarchy.org) theme: terminal, window manager, lock screen, notifications, status bar, app launcher, neovim, browser. Six brand-themed wallpapers included (3 designs × 16:9 + 21:9).
-
-## Files
-
-```
-themes/omarchy/nullforge/
-├── alacritty.toml      # terminal colors (16-color ANSI palette)
-├── btop.theme          # btop process viewer
-├── chromium.theme      # chromium/electron app theme
-├── hyprland.conf       # window borders, gaps, shadows, animations
-├── hyprlock.conf       # lock screen — clock, date, password prompt
-├── mako.ini            # notification daemon
-├── neovim.lua          # full :highlight stub (works without an extra plugin)
-├── swayosd.css         # volume / brightness OSD
-├── walker.css          # app launcher
-├── waybar.css          # status bar
-└── backgrounds/        # wallpapers — see below
-    ├── 01-void-16x9.png    01-void-21x9.png
-    ├── 02-type-16x9.png    02-type-21x9.png
-    └── 03-ember-16x9.png   03-ember-21x9.png
-```
-
-## Install
-
-Drop the folder into Omarchy's themes directory and switch to it:
-
-```bash
-# 1. Copy the theme into place
-cp -r themes/omarchy/nullforge ~/.config/omarchy/themes/
-
-# 2. Activate it
-omarchy-theme-set nullforge
-# (or: ln -snf ~/.config/omarchy/themes/nullforge ~/.config/omarchy/current/theme)
-
-# 3. Pick a wallpaper — they're now in your background rotation
-#    Use Omarchy's background switcher, or set manually:
-hyprctl hyprpaper preload ~/.config/omarchy/current/backgrounds/02-type-16x9.png
-hyprctl hyprpaper wallpaper ",~/.config/omarchy/current/backgrounds/02-type-16x9.png"
-```
-
-Reload Waybar (`pkill -SIGUSR2 waybar`) and Mako (`makoctl reload`) — Omarchy's theme switcher usually does this for you.
+![preview](./preview.png)
 
 ## Theme variant — dark (default)
 
