@@ -2,8 +2,6 @@
 #  alacritty.toml — Nullforge
 #  drop into ~/.config/omarchy/themes/nullforge/alacritty.toml
 # ============================================================
-[cursor]
-blink_interval = 500
 [colors.primary]
 background        = "#0a1420"
 foreground        = "#f2ece6"
