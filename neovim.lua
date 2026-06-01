@@ -7,7 +7,7 @@
 
 return {
   {
-    -- Dummy spec pointing at your nvim config dir so lazy loads it
+   
     dir = vim.fn.stdpath("config"),
     name = "nullforge",
     priority = 1000,
