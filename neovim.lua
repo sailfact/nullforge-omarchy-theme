@@ -7,16 +7,21 @@
 
 return {
   {
-    -- Dummy spec pointing at your nvim config dir so lazy loads it
-    dir = vim.fn.stdpath("config"),
+    "sailfact/nullforge.nvim",
     name = "nullforge",
     priority = 1000,
-    config = function()
+    opts = {
+      transparent = true,
+    },
+    config = function(_, opts)
+      require("nullforge").setup(opts)
       vim.cmd.colorscheme("nullforge")
     end,
   },
   {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "nullforge" },
+    opts = {
+      colorscheme = "nullforge",
+    },
   },
 }
