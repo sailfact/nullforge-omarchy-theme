@@ -11,7 +11,7 @@ return {
     name = "nullforge",
     priority = 1000,
     opts = {
-      transparent = true,
+      transparent = false,
     },
     config = function(_, opts)
       require("nullforge").setup(opts)
